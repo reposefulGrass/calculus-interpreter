@@ -15,8 +15,8 @@ using namespace std;
 double evalIntegral (Expression expr, int a, int b);
 
 int main () {
-	ifstream infile ("integrals5.txt");
-	ofstream outfile ("answers5.txt");
+	ifstream infile ("integrals.txt");
+	ofstream outfile ("answers.txt");
 	
 	if (!infile || !outfile) {
 		cout << "Could not open integrals.txt or answers.txt" << endl;
