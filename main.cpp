@@ -23,9 +23,10 @@ int main () {
 		return 1;
 	}	
 
-	string line;
 	bool definite;
 	int a = 0, b = 0;
+	
+	string line;
 	getline(infile, line);
 
 	while (infile) {
