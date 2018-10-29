@@ -28,6 +28,11 @@ int main () {
 	
 	string line;
 	getline(infile, line);
+	
+	// example integrals:
+	// | 3x^2 + 2x + 1 dx
+    // 1|4 x^-2 +3x+4 dx
+
 
 	while (infile) {
 		// Determine if definite or indefinite integral
